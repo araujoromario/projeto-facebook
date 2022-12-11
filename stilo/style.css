@@ -5,7 +5,7 @@
     --cor2: #166FE5;
     --cor3: #1877d2;
     --cor4: #42B72A;
-
+    --cor5 :#006eff;
 } 
 * {
     padding: 0px;
@@ -64,7 +64,9 @@ header {
     border-color: #1670e51a;
     font-size: 1.2em;
 }
-
+.entrar:hover {
+    background-color: var(--cor5);
+}
 section > p {
     margin-bottom: 10px;
     color:#1670e523 ;
